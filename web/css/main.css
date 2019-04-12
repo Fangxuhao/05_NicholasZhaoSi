@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*background S*/
+.backgroundElem,.aElem a,.iElem i{background:url(../images/background.png);background-position: 0 0;background-repeat: no-repeat; display: block;}
+/*background E*/
+/*header S*/
+#header{ width: 100%;  z-index: 100; overflow: hidden;}
+#header .headTop{ height: 50px;margin-top: 27xp ;}
+#header .headTop .logo{padding-left: 5px;padding-top: 25px; width: 235px;}
+#header .headTop .headNav{ width: 780px;padding-top: 60px;}
+#header .headTop .headNav .headNavUl{ padding-top:10px; text-align: right;}
+#header .headTop .headNav .headNavUl .navLi{  color: #CCCCCC;  font-size: 14px;  font-weight: bold; padding-left: 4px;}
+#header .headTop .headNav .headNavUl .navLi .atem{  color: #444444; padding-right: 5px; }
+/*header E*/
+
+/*center S*/
+#center{ width: 100%; overflow: hidden; }
+#center .centBox{ padding-top: 0px; padding-bottom: 15px;}
+/*center E*/
+/*footer S*/
+#footer{position: relative; z-index: 100; width: 100%; overflow: hidden;}
+#footer .footBox{ background-color: #9C7652;  height: 100px; border-top: 3px solid #674A2E;}
+#footer .footBox .footCom{ padding-top: 15px; color: #fff;}
+#footer .footBox .footNav{ margin: 0 auto;}
+#footer .footBox .footNav a{ font-size: 14px; color: #fff; padding: 0 5px;}
+#footer .footBox .footCom .footTxt{ width: 690px; margin: 0 auto; padding-top: 10px; font-size: 14px; line-height: 25px;}
+#footer .footBox .footCom .footTxt span{ padding: 0 15px;}
+/*footer E*/

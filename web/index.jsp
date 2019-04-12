@@ -12,23 +12,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>乡土文化教育-首页</title>
-  <link href="./base.css" rel="stylesheet">
-  <link href="./main.css" rel="stylesheet">
-  <link href="./index.css" rel="stylesheet">
-  <link href="./demo.css" rel="stylesheet" media="all">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/demo_1.css" rel="stylesheet" media="all">
 </head>
 <body>
 <div id="switcher">
   <div class="center">
     <ul>
-      <li class="top2" style="margin-right: 20px"> <a href="#">注册</a> </li>
-      <li class="top2" > <a href="#">登陆</a> </li>
+      <li class="top2" style="margin-right: 20px"> <a href="login.html">注册</a> </li>
+      <li class="top2" > <a href="login.html">登陆</a> </li>
     </ul>
   </div>
 </div>
 <div id="header" class="clear">
   <div class="headTop clear webPage">
-    <div class="logo L"><a href="#"><img src="loge.png" width="235" height="79"></a></div>
+    <div class="logo L"><a href="#"><img src="img/loge.png" width="235" height="79"></a></div>
     <div class="headNav R">
 
       <ul class="headNavUl clear">
@@ -52,10 +52,10 @@
       <div class="slide">
         <div class="slideA">
           <ul class="ggBox">
-            <li style="z-index: 1; opacity: 0.1;"><img src="./111.jpeg" width="1024" height="481"></li>
-            <li style="z-index: 1; opacity: 0.1;"><img src="./111.jpeg" width="1024" height="481"></li>
-            <li style="z-index: 1; opacity: 0.1;"> <img src="./111.jpeg" width="1024" height="481"></li>
-            <li style="z-index: 3; opacity: 1;"> <img src="./111.jpeg" width="1024" height="481"></li>
+            <li style="z-index: 1; opacity: 0.1;"><img src="img/111.jpeg" width="1024" height="481"></li>
+            <li style="z-index: 1; opacity: 0.1;"><img src="img/111.jpeg" width="1024" height="481"></li>
+            <li style="z-index: 1; opacity: 0.1;"> <img src="img/111.jpeg" width="1024" height="481"></li>
+            <li style="z-index: 3; opacity: 1;"> <img src="img/111.jpeg" width="1024" height="481"></li>
           </ul>
         </div>
         <div class="aElem leftRight" style="display: block;">
@@ -81,8 +81,8 @@
         <div class="slide3 clear padding-bottom-10 ">
           <div class="slideA">
             <ul class="ggBox">
-              <li style="z-index: 1; opacity: 0.1;"> <a href="#"><img src="./slide04.jpg" width="92" height="95"></a> <a href="#"><img src="./slide03.jpg" width="92" height="95"></a> <a href="#"><img src="./slide01.jpg" width="92" height="95"></a> <a href="#"><img src="./slide02.jpg" width="92" height="95"></a> </li>
-              <li style="z-index: 3; opacity: 1;"> <a href="#"><img src="./slide01.jpg" width="92" height="95"></a> <a href="#"><img src="./slide02.jpg" width="92" height="95"></a> <a href="#"><img src="./slide03.jpg" width="92" height="95"></a> <a href="#"><img src="./slide04.jpg" width="92" height="95"></a> </li>
+              <li style="z-index: 1; opacity: 0.1;"> <a href="#"><img src="img/slide04.jpg" width="92" height="95"></a> <a href="#"><img src="./slide03.jpg" width="92" height="95"></a> <a href="#"><img src="./slide01.jpg" width="92" height="95"></a> <a href="#"><img src="./slide02.jpg" width="92" height="95"></a> </li>
+              <li style="z-index: 3; opacity: 1;"> <a href="#"><img src="img/slide01.jpg" width="92" height="95"></a> <a href="#"><img src="./slide02.jpg" width="92" height="95"></a> <a href="#"><img src="./slide03.jpg" width="92" height="95"></a> <a href="#"><img src="./slide04.jpg" width="92" height="95"></a> </li>
             </ul>
           </div>
           <div class="aElem leftRight">
@@ -97,7 +97,7 @@
       <div class="indBox2 L padding-right-10">
         <div class="indCon indCon2 clear">
           <div class="indComNav clear text-right"><span class="font-yahei"><i></i>最新资讯</span><a href="#">查看更多&gt;</a></div>
-          <div class="viodBox L"> <a href="#"><img src="./vio.jpg" width="175" height="205"></a> </div>
+          <div class="viodBox L"> <a href="#"><img src="img/vio.jpg" width="175" height="205"></a> </div>
           <div class="viodCom R">
             <div class="viodTxt"><span></span><a href="#">xxxxxxxxxxxxxxx</a></div>
             <div class="viodTxt"><span></span><a href="#">xxxxxxxxxxxxxxxx</a></div>
@@ -112,7 +112,7 @@
       <div class="indBox1 padding-left-10 L">
         <div class="indCon indCon1 ">
           <div class="indComNav clear text-right"><span class="font-yahei"><i></i>民间文艺</span><a href="#">查看更多&gt;</a></div>
-          <div class="viodBox padding-10"> <img src="./con07.jpg" width="287" height="205"> </div>
+          <div class="viodBox padding-10"> <img src="img/con07.jpg" width="287" height="205"> </div>
         </div>
       </div>
       <div class="clear padding-top-10">
@@ -121,8 +121,8 @@
       <div class="indBox2 L padding-right-10">
         <div class="indCon indCon2 clear">
           <div class="indComNav clear text-right"><span class="font-yahei"><i></i>作品欣赏</span><a href="#">查看更多&gt;</a></div>
-          <div class="imgBox L"> <a href="#"><img src="./con06.jpg" width="188" height="200"></a> </div>
-          <div class="imgCom R"> <a href="#"><img src="./con07.jpg" width="115" height="91"></a> <a href="#"><img src="./con09.jpg" width="115" height="91"></a> <a href="#"><img src="./con10.jpg" width="115" height="91"></a> <a href="#"><img src="./con11.jpg" width="115" height="91"></a> </div>
+          <div class="imgBox L"> <a href="#"><img src="img/con06.jpg" width="188" height="200"></a> </div>
+          <div class="imgCom R"> <a href="#"><img src="img/con07.jpg" width="115" height="91"></a> <a href="#"><img src="./con09.jpg" width="115" height="91"></a> <a href="#"><img src="./con10.jpg" width="115" height="91"></a> <a href="#"><img src="./con11.jpg" width="115" height="91"></a> </div>
         </div>
       </div>
       <div class="indBox1 padding-left-10 L">
@@ -147,12 +147,12 @@
 <div id="footer" class="clear">
   <div class="webPage clear footBox">
     <div class=" footCom">
-      <div class="footTxt"><span>地址：xxxxxxxxxxxxxxxxxxxxx</span>|<span>电话：xxxxx</span>|<span>邮编；650031</span><span></div>
+      <div class="footTxt"><span>地址：xxxxxxxxxxxxxxxxxxxxx</span>|<span>电话：xxxxx</span>|<span>邮编；650031</span></div>
     </div>
   </div>
 </div>
 <!-- footer E -->
-<script src="./jquery-1.8.2.min.js.下载"></script>
-<script src="./base.js.下载"></script>
+<script src="jquery.min.js"></script>
+<script src="js/base.js"></script>
 </body>
 </html>
