@@ -42,6 +42,7 @@ public class CodeServlet extends HttpServlet {
         try {
             sos = response.getOutputStream();
 //           ImageIO.write((RenderedImage) codeMap.get("codePic"), "jpeg", sos);
+
             JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(sos);
             encoder.encode((BufferedImage) codeMap.get("codePic"));
             sos.close();
