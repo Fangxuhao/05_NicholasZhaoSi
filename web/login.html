@@ -79,9 +79,9 @@
         // alert( img.src="/codeServlet?time="+new Date().getTime());
         // img.src="/codeServlet?time="+new Date().getTime();
         // document.getElementById("imgObj")[0].setsrc="/codeServlet?time="+new Date().getTime();
-        const imgSrc = $("#imgObj");
+        var imgSrc = $("#imgObj");
 
-        const src = imgSrc.attr("src");
+        var src = imgSrc.attr("src");
         imgSrc.attr("src", chgUrl(src));
     }
 

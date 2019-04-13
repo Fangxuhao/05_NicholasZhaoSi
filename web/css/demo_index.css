@@ -9,7 +9,7 @@ ins{text-decoration:none}
 del{text-decoration:line-through}
 table{border-collapse:collapse;border-spacing:0}
 a{text-decoration:none;color:#fff}
-body{font-family:"Kreon";font-weight:300;color:#333;background:#fff;}
+body{font-family:"Kreon";font-weight:300;color:#333;background:#fff;width: 100%}
 
 #switcher{height:27px;z-index:99999;position:fixed;width:100%;top:0;background:#000;}
 

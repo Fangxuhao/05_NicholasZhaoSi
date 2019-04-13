@@ -55,7 +55,7 @@ function AjaxFunc() {
                 alert("验证码错误");
             }
 
-            // $(location).attr('href', 'index.jsp');
+
         },
         error: function (xhr, type) {
             console.log(xhr);
