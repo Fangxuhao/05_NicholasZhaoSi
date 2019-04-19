@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="zh-cn">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -26,12 +27,19 @@
 
             <ul class="headNavUl clear">
                 <li class="navLi active"><a href="#" class="atem">网站首页</a>丨</li>
+
                 <li class="navLi "><a href="#" class="atem">民间文艺</a>丨</li>
+
                 <li class="navLi "><a href="#" class="atem">最新资讯</a>丨</li>
+
                 <li class="navLi "><a href="#" class="atem">民俗风情</a>丨</li>
+
                 <li class="navLi "><a href="#" class="atem">作品欣赏</a>丨</li>
+
                 <li class="navLi "><a href="#" class="atem">文化遗产</a>丨</li>
+
                 <li class="navLi "><a href="#" class="atem">节日节气</a>丨</li>
+
                 <li class="navLi "><a href="#" class="atem">关于乡土教育</a></li>
 
             </ul>
@@ -70,10 +78,14 @@
         </div>
         <!--left S-->
         <div class="indLeft L">
+            <%--加日历处--%>
             <div class="indLeftImg"><a href="#"><img src="" width="211" height="92"></a></div>
+
+
             <div class="clear padding-top-10"></div>
             <div class="indLeftCom clear margin-top-10">
-                <div class="indLeftTit  font-yahei "></div>
+
+
 
                 <div class="indLeftTit  font-yahei">节日节气</div>
 
@@ -193,7 +205,7 @@
 
         var toTop = document.getElementById("to_top"); //获取图片所在的div
 
-        toTop.onclick = function () { //点击图片时触发的点击事件
+        toTop.onclick = function () { //点击图片时触发的点击返回顶部事件
             document.documentElement.scrollTop = document.body.scrollTop = 0; //页面移动到顶部
         }
     }

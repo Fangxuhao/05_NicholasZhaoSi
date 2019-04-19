@@ -22,7 +22,7 @@
                 <img src="img/user_face.jpg">
             </div>
             <div class="user-account">
-                <p class="tip">下午好，Tom</p>
+                <p class="tip">下午好，<span>Tom</span></p>
                 <p class="account">
                     <span>帐户名：Tom</span>
                     <span>邮箱：xxxxx@xx.com</span>
@@ -38,14 +38,14 @@
     <div class="left">
         <ul>
             <li>
-                <a href=" ##" class="active">
+                <a href="#" class="active">
                     <i class="icon iconfont icon-lingdang"></i>
                     消息
                 </a>
             </li>
             <li>
                 <a href=" ##">
-                    <i class="icon iconfont icon-fangzidichan"></i>
+                    <i class="icon iconfont icon-fangzidichan" onclick=""></i>
                     投稿
                 </a>
             </li>
@@ -76,6 +76,17 @@
     </div>
 </div>
 
+<script>
+    function setTapText(i) {
+       if (i==1){
+           document.getElementById("tap_top").innerHTML="投稿";
+       }else if (i==2){
+           document.getElementById("tap_top").innerHTML="浏览记录";
+       }else if (i==3) {
+           document.getElementById("tap_top").innerHTML="个人资料";
+       }
+    }
+</script>
 
 </body>
 </html>

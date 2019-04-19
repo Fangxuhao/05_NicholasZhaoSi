@@ -1,4 +1,4 @@
-function login() {
+function register() {
     var username = document.getElementById("r_name").value;
     var password = document.getElementById("r_pwd").value;
     var email = document.getElementById("r_email").value;
@@ -54,8 +54,6 @@ function AjaxFunc() {
             } else if (data == -2) {
                 alert("验证码错误");
             }
-
-
         },
         error: function (xhr, type) {
             console.log(xhr);
