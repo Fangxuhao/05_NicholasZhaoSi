@@ -22,6 +22,10 @@
         <servlet-name>checkCode</servlet-name>
         <servlet-class>register.CheckCode</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>indexImgServlet</servlet-name>
+        <servlet-class>index.IndexImgServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>registerServlet</servlet-name>
         <url-pattern>/register</url-pattern>
@@ -39,5 +43,10 @@
         <servlet-name>checkCode</servlet-name>
         <url-pattern>/checkCode</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>indexImgServlet</servlet-name>
+        <url-pattern>/indexImg</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

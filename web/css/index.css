@@ -37,7 +37,7 @@
 .slide3 .leftRight .rightBtn{width: 35px;height: 45px; background-position: -78px -382px; float: right;}
 /*index sim slide E*/
 
-#center .centBox .indCom{ width: 795px; padding-top: 10px;}
+#center .centBox .indCom{ width: 795px; padding-top: 10px;padding-bottom: 10px}
 #center .centBox .indCom .indBox1{ width: 310px;}
 
 #center .centBox .indCom .indCon{ min-width: 310px; min-height: 220px; border:1px solid #ddd; background-color: #fff;}

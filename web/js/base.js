@@ -28,22 +28,6 @@ var main = (function () {
 		})
 	      
 
-		//搜索框提示
-	        $(".promptTxt").each(function () {
-	            var pVal = $(this).attr("placeholder");
-	            $(this).focus(function () {
-	                $(this).attr("placeholder", "");
-	            }).blur(function () {
-	                var thisVal = $(this).val();
-	                if (thisVal != "") {
-	                    $(this).attr("placeholder", "");
-	                }
-	                else {
-	                    $(this).attr("placeholder", pVal);
-	                }
-	            });
-	        });
-
 
     }
 

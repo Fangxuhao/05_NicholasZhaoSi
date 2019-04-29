@@ -53,6 +53,7 @@
 #center {
     width: 100%;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 #center .centBox {
@@ -63,6 +64,7 @@
 /*center E*/
 /*footer S*/
 #footer {
+    margin-top: 10px;
     position: relative;
     z-index: 100;
     width: 100%;

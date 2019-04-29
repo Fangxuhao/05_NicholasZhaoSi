@@ -42,7 +42,6 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
 
         System.out.println(email + "   " + pwd + "   " + code);
 
-
         //验证码判断
         String sessionCode = request.getSession().getAttribute("code").toString();
 
@@ -57,7 +56,6 @@ public class LoginServlet extends javax.servlet.http.HttpServlet {
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
-
                 if (admin != null) {
                     //获取全局管理者
                     ServletContext context = this.getServletContext();
