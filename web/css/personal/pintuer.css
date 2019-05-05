@@ -299,6 +299,12 @@ input[disabled],input[readonly],textarea[disabled],textarea[readonly],select[dis
 textarea.input{height:auto;}
 .input-note, .label .float-right{color:#999;font-size:12px;padding-top:2px;line-height:18px;}
 .field{position:relative;}
+
+/*.message{width:320px;margin:120px auto 0px auto;line-height:24px;color:#ffd5bc;overflow:hidden}*/
+.field .input{width:219px;height:28px;line-height:28px;padding-left:20px;font-family:Microsoft YaHei;}
+.field .liulan{width:64px;height:28px;border:1px solid #ffb660;background:#fe9e19;color:#ffffff;cursor:pointer;}
+.field .files{position:absolute;left:-1000px;top:52px;heigth:26px;cursor:pointer;filter: Alpha(opacity=0);-moz-opacity:0;opacity:0;}
+
 .form-group{padding-bottom:10px;}
 .field-icon .input{text-indent:25px;}
 .field-icon .icon{position:absolute;left:0;right:auto;width:34px;height:34px;text-align:center;line-height:34px;font-size:16px;font-weight:normal;}
