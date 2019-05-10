@@ -32,5 +32,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="commons-lang-2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.13" level="application_server_libraries" />
   </component>
 </module>

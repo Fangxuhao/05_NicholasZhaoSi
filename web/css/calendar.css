@@ -6,6 +6,8 @@ ul, li { list-style: none; }
 .calendar {
   display: none;
   width: 210px;
+  width: 210px;
+  height: 300px;
   padding: 10px;
   margin: 30px auto 0;
   background-color: #fafafa;
@@ -14,21 +16,21 @@ ul, li { list-style: none; }
 .calendar-title {
   position: relative;
   height: 30px;
-  line-height: 30px;
-  padding: 10px 0;
+  line-height:30px;
+  padding: 3px 0;
 }
 .calendar-title a.title {
   display: inline-block;
-  font-size: 26px;
+  font-size: 12px;
   text-indent: 10px;
 }
 #backToday {
   position: absolute;
   left: 70%;
   top: 8px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
   text-align: center;
   border-radius: 50%;
   color: #fff;
